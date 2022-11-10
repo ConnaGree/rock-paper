@@ -51,10 +51,10 @@ buttons.forEach((button) => {
         playerSelection = button.id
         matchWinner= playRound(button.id,computerSelection)
         
+         
+        showWinner()
         displayResult()
         resetValues()
-        
-        showWinner()
         
 
         
